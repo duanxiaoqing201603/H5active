@@ -37,7 +37,6 @@
                 $('.choice').show();
                 $('.tab-item').show();
                 dataList.map((item, index) => {
-                    //console.log(item,index);
                     let strLi = '<li><img oID="' + index + '" src="' + item.coverUrl + '"/><span>' + item.title + '</span></li>';
                     videoUrl.push(item.playUrl);
                     str += strLi;
